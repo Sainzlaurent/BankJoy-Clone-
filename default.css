@@ -10,6 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
   opacity: .8;
+  background-color: rgba(81,112,221,.6)
+}
+
+#color-overlay {
+  background-color: rgba(81,112,221,.6);
 }
 
 #toplogo {
@@ -38,8 +43,8 @@ body {
 
 .slogan {
   position: relative;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 10px;
+  font-weight: 500;
 }
 
 .demo {
