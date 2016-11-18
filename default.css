@@ -9,15 +9,13 @@ body {
   background-size: cover;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  opacity: .8;
-  background-color: rgba(81,112,221,.6)
 }
 
 #color-overlay {
   background-color: rgba(81,112,221,.6);
 }
 
-#toplogo {
+header {
   position: relative;
   background: url('https://www.bankjoy.com/assets/images/logos/logo-light@2x.png');
   padding-left: 1000px;
@@ -52,4 +50,35 @@ body {
   padding-top: 100px;
   color: white;
   font-weight: 400;
+  padding-bottom: 100px;
+}
+.phones {
+  position: relative;
+  background-position: center;
+}
+
+.middlephone {
+  position: absolute;
+  bottom: 1%;
+  left: 45%;
+  right: 0;
+  width: 260px;
+  height: 530px;
+  z-index: 10;
+}
+
+.leftphone {
+  position: relative;
+  padding-right: 50px;
+  width: 250px;
+  height: 500px;
+  z-index: 5;
+}
+
+.rightphone {
+  position: relative;
+  width: 250px;
+  height: 500px;
+  padding-left: 50px;
+  z-index: 5;
 }
