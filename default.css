@@ -16,12 +16,15 @@ body {
 }
 
 header {
+  margin: 0 auto;
   position: relative;
-  background: url('https://www.bankjoy.com/assets/images/logos/logo-light@2x.png');
-  padding-left: 1000px;
-  max-width: 340px;
-  height: 340px;
-  background-size: cover;
+  max-width: 200px;
+  height: 200px;
+}
+
+.logo{
+  width: 300px;
+  height: 100px;
 }
 
 #contactinfo {
@@ -41,7 +44,8 @@ header {
 
 .slogan {
   position: relative;
-  font-size: 10px;
+  color: white;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -59,9 +63,10 @@ header {
 
 .middlephone {
   position: absolute;
-  bottom: 1%;
-  left: 45%;
+  margin: 0 auto;
+  left: 0;
   right: 0;
+  bottom: 1%;
   width: 260px;
   height: 530px;
   z-index: 10;
